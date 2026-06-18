@@ -20,6 +20,8 @@ body {
     margin-top: 10px;
     margin-bottom: 20px;
 
+    border-radius: 10px;
+
     width: auto;
     height: auto;
 }
@@ -39,6 +41,10 @@ body {
     text-decoration: none;
     color: black;
     margin: 5px;
+    border-radius: 20%;
+}
+.menu-link:hover{
+    background-color: #f8d9e8;
 }
 .out-link{
     margin: 10px 10px 10px 10px;
@@ -46,13 +52,16 @@ body {
 .out-button{
     display: inline-block;
     padding: 5px 10px;
-    background-color: #d878b0;
-    color: white;
+    background-color: #e2c3d5;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
     transition: background-color 0.2s;
     margin-left: 5px;
+}
+.out-button:hover{
+    background-color: #dab1c8;
 }
 .footer{
     border-style: solid;
