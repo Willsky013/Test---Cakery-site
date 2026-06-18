@@ -43,6 +43,17 @@ body {
 .out-link{
     margin: 10px 10px 10px 10px;
 }
+.out-button{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #d878b0;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    margin-left: 5px;
+}
 .footer{
     border-style: solid;
     margin-top: 20px;
